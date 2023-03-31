@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px black;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo-menu{
+    display: flex;
+}
+
+.logo-menu > img{
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+.botao-branco{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.botao-branco:hover{
+    transform: scale( 0.9);
+    background-color: rgb(197, 197, 197);
+    box-shadow: 2px 2px 2px gray;
+}
+
+.botao-preto{
+    background-color: black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: white;
+}
+
+.botao-loja{
+    font-size: 12px;
+}
+
+main{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.texto1{
+    background-color: rgb(203, 203, 203);
+    padding: 70px;
+    margin: 50px;
+    text-align: center;
+}
+
+.paragrafo1{
+    margin-bottom: 20px;
+}
+
+.coffee{
+    background-image: url(/Starbucks/img/capasite.jpg);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: top center;
+    flex-direction: column;
+    margin: 50px;
+    margin-top: 0;
+}
+
+.card-com-imagem{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card-com-imagem > img{
+    width: 50%;
+}
+
+.card-com-imagem > div{
+    background-color: rgb(203, 203, 203);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-site3 {
+    background-color: #00824844;
+    width: 1400px;
+    height: 415px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.main-foto {
+    background-size: cover;
+    height: 600px;
+    float: left;
+}
+
+.main-foto2 {
+    background-size: cover;
+    height: 415px;
+    float: right;
+}
+
+.site-box2-tittle {
+    padding-top: 200px;
+    font-size: 25px;
+    font-size: 20px;
+}
+
+.site-box3-tittle2 {
+    padding-top: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0, 5px black solid;
+}
+
+.button{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
