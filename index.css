@@ -87,7 +87,7 @@ main{
 }
 
 .coffee{
-    background-image: url(/Starbucks/img/capasite.jpg);
+    background-image: url(img/capasite.jpg);
     height: 500px;
     display: flex;
     justify-content: center;
